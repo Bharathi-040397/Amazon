@@ -1,0 +1,58 @@
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e6e680;
+    }
+    .mobileimg_container
+    {
+        max-height: 500px;
+        margin-top: 5rem;
+    }
+    .mobile_img
+    {
+        width: 100%;
+        object-fit: contain;
+    }
+    .mobileproduct_container
+    {
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        max-width: 1400px;
+        
+    }
+    .mob_collections
+    {
+        display: flex;
+       max-width: 1500px;
+       justify-content: space-evenly;
+           }
+    .mob_collections card
+    {
+        width: 200px;
+        max-height: 500px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mob_collections card .mobcard_img
+    {
+      width: 200px;
+      object-fit: contain;
+      height: 150px;
+      margin-bottom: 0.5rem;
+    }
+    .one_img
+    {
+        width: 100%;
+    }
+    .brand
+    {
+        text-align: center;
+        font-weight: 400;
+    }
+
+    

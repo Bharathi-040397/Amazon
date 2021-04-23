@@ -1,0 +1,82 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    background-color:rgb(40, 34, 61);
+    color:white;
+    height: 45px;
+    position: sticky;
+    top:80px;
+    z-index: 100;
+    overflow: hidden;
+}
+.nav_address
+{
+ margin-left: 1rem;
+ display: flex;
+ align-items: center; 
+}
+.address_icon
+{
+font-size: 30px!important;
+}
+.address_content
+{
+ display: flex;
+ flex-direction: column;
+ margin-left: 4px;
+}
+.address_content1
+{
+    font-size: 13px;
+}
+.address_content2
+{
+    font-size:15px;
+    font-weight: bold;
+}
+.nav_links
+{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 700px;
+}
+.links
+{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex: 1;
+
+}
+.link
+{
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none!important;
+    
+}
+.link:hover{
+    color: orange;
+}
+.nav_ad
+{
+    background-color: white;
+    width: 100%;
+    flex: 1;
+    object-fit: contain;
+    
+}
+.ad1
+{
+width:300px;
+height: 90px;
+object-fit: contain;
+}
+.ad2{
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+}
+

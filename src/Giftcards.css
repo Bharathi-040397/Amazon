@@ -1,0 +1,48 @@
+.gift_cards
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px dotted;
+    padding: 20px;
+    width: 250px;
+    max-height: 300px;
+    z-index: 1;
+}
+
+.giftcards_img{
+    max-height: 130px;
+    width: 250px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.giftcards_info p
+{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.giftcards_price
+{
+    margin-top: 5px;
+    font-size: 18px;
+    color:teal;
+    display: flex;
+   align-items: center;
+}
+.giftcardbtn
+{
+    margin-top: 1rem;
+    background-color: rgb(218, 160, 52);
+    border: rgb(218, 160, 52);
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.addbtn:hover {
+ opacity: 0.8;
+}

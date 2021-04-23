@@ -1,0 +1,55 @@
+.fashion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e9e6e680;
+
+    }
+    .fashionimg_container
+    {
+        max-height: 300px;
+       max-width: 1500px;
+        margin-top: 5rem;
+        
+           }
+    .fashion_img
+    {
+        width: 100%;
+        object-fit: contain;
+    }
+    .collections
+    {
+        display: flex;
+       max-width: 1500px;
+       justify-content: space-evenly;
+       margin-top: 6rem;
+           }
+    .collections card
+    {
+        width: 200px;
+        max-height: 500px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .collections card .card_img
+    {
+      width: 200px;
+      object-fit: contain;
+      height: 150px;
+      margin-bottom: 0.5rem;
+    }
+    .fashionproduct_container
+{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+      max-width: 1200px;
+}
+
+    

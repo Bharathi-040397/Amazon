@@ -1,0 +1,171 @@
+.login_container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 85vh;
+      
+}
+.login_img
+{
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+.login
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin-top: -3.5rem;
+    border: 1px dotted;
+    padding:1.5rem;
+
+}
+.login h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.logininput{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 1rem;
+    border:1px solid #33333373;
+    border-radius: 3px;
+}
+.loginheading
+{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+   
+}
+.continuebtn
+{
+    width: 106%;
+    padding: 6px ;
+    background-color: orange;
+    border: orange;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    border:1px solid #33333373;
+    border-radius: 3px;
+}
+.agree
+{
+    margin-top: 2rem;
+    font-size: 13px;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logincheck
+{
+    margin-right: 6px;
+    margin-top: 3px;
+}
+.details{
+margin-top: 2px;
+}
+.agree small{
+    font-size: 13px;
+}
+.details:hover
+{
+text-decoration: underline;
+}
+.new_account
+{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.1rem;
+
+}
+.new_login
+{
+font-size: 13px;
+font-weight: 650;
+margin-bottom: -0.1px;
+
+}
+
+.createbtn
+{
+padding: 4px;
+width: 300px;
+cursor: pointer;
+border:1px solid #33333373;
+ border-radius: 3px;
+}
+.heading1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.forget
+{
+    color: rgba(25, 127, 223, 0.842);
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.loginbtn
+{
+    width: 106%;
+    padding: 6px ;
+    background-color: orange;
+    border: orange;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+    border:1px solid #33333373;
+    border-radius: 3px;
+}
+.verify
+{
+    width: 350px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.notify
+{
+font-size: 13px;
+font-weight: 450;
+margin-top: 0.2rem;
+}
+
+.otpbtn
+{
+padding: 4px;
+margin-top: 0.5rem;
+width: 300px;
+cursor: pointer;
+border:1px solid #33333373;
+border-radius: 3px;
+margin-top: -0.7rem;
+}

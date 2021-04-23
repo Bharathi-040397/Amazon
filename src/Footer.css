@@ -1,0 +1,102 @@
+.page_end
+{
+    background-color:rgb(34, 34, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer_content1
+{
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    color:#f9f9f9;
+    
+}
+hr
+{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: 0.1px solid white;
+}
+.footer_middle
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(34, 34, 53);
+}
+.footer_img
+{
+    width:45px;
+    height: 44px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.face
+{
+    font-size: 40px!important;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+.twit
+{
+    font-size: 40px!important;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.insta
+{
+    font-size: 40px!important; 
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+.utube
+{
+    font-size: 40px!important;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+.footer_links
+{
+    margin-top: 1rem;
+    list-style: none;
+}
+.footer_content11 h4{
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.footer_link{
+text-transform: capitalize;
+font-weight: 200;
+}
+.btn
+{
+    width: 100%;
+}
+.backbtn
+{
+    width: 100%!important;
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 15px;
+    background-color: rgba(102, 90, 90, 0.089)!important;
+    border:rgba(102, 90, 90, 0.089);
+    color: seashell;
+    font-weight: 100;
+    cursor: pointer;
+}
